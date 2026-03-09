@@ -128,7 +128,7 @@ colorPicker.Text = "Click and hold to pick a colour";
 
 ### Website Links
 
-[Project Page](https://pinoleekz.de/leekzscreencolorpicker) | [GitHub Page](https://github.com/PIN0L33KZ/LeekzScreenColorPicker) | [NuGet Page](https://www.nuget.org/packages/Leekz.ScreenColorPicker/#readme-body-tab)
+[Project Page](https://pinoleekz.de/leekz-screencolorpicker) | [GitHub Page](https://github.com/PIN0L33KZ/LeekzScreenColorPicker) | [NuGet Page](https://www.nuget.org/packages/Leekz.ScreenColorPicker/#readme-body-tab)
 
 ---
 
