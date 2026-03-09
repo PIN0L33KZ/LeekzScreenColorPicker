@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+	<PropertyGroup>
+		<!-- Target framework and WinForms -->
+		<TargetFrameworks>net10.0-windows</TargetFrameworks>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+		<!-- NuGet metadata -->
+		<PackageId>Leekz.ScreenColorPicker</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>PIN0L33KZ</Authors>
+		<Company>PIN0L33KZ GbR</Company>
+		<Product>LeekzScreenColorPicker</Product>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<Description>WinForms screen colour picker control with zoom and adaptive grid colour.</Description>
+		<PackageTags>winforms;colour;colour;screen;picker;control;leekz;l33kz;pinoleekz;pin0l33kz</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<!-- Optional but nice -->
+		<PackageProjectUrl>https://www.pinoleekz.de</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/PIN0L33KZ/LeekzScreenColorPicker</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+
+		<!-- Build will automatically create a .nupkg -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+		<!-- Keine Lizenzabfrage im NuGet-Dialog -->
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- README in das Paket einpacken, im Root des .nupkg -->
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
